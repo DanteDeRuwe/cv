@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700');
+
+$text-font: 'Roboto', 'Segoe UI', sans-serif;
+$header-font: 'Nunito', $text-font;
+$blue: #4b7bec;
+
+* {
+	font-family: $text-font;
+	font-weight: 300;
+}
+
+main {
+	color: black;
+	i {
+		color: #333333;
+	}
+}
+
+a {
+	text-decoration: none !important;
+}
+
+p {
+	margin: 0;
+}
+
+.blue {
+	color: $blue;
+}
+
+.bold {
+	font-weight: 400;
+}
+
+section {
+	margin-top: 3rem;
+	header {
+		font-size: 1.5rem;
+		margin-bottom: 1rem;
+		font-weight: 500;
+		letter-spacing: 0.07rem;
+		font-family: 'Nunito';
+		margin-left: -0.07rem;
+
+		&:after {
+			content: '.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................';
+			font-size: 1rem;
+			margin-top: -0.5rem;
+			color: $blue;
+			overflow: hidden;
+			display: block;
+		}
+	}
+}
+
+.container {
+	height: 100%;
+}
+
+#name {
+	font-family: $header-font;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+#dob {
+	font-size: 1.2rem;
+}
+
+@media print {
+	* {
+		font-size: 0.75rem !important;
+	}
+
+	.devicons {
+		margin-bottom: -1rem !important;
+		i {
+			font-size: 1rem !important;
+		}
+
+		svg {
+			width: 1rem !important;
+			height: 1rem !important;
+		}
+
+		span {
+			font-size: 0.5rem !important;
+		}
+	}
+
+	header {
+		font-size: 1.3rem !important;
+	}
+
+	aside {
+		width: 14rem !important;
+		height: 83.5rem !important; //just by trial and error
+
+		#name {
+			font-weight: 300 !important;
+			font-size: 1.7rem !important;
+		}
+
+		#dob {
+			font-size: 1rem !important;
+		}
+
+		img {
+			width: 13rem;
+			height: 13rem;
+		}
+
+		#contact .info .info-item {
+			margin-bottom: 0.5rem !important;
+		}
+	}
+
+	main {
+		margin-top: 5rem !important;
+		margin-left: 22rem !important;
+
+		.item-title {
+			font-size: 1rem !important;
+		}
+
+		.item-description {
+			font-size: 0.6rem !important;
+		}
+	}
+}
+
+//ASIDE
+aside {
+	color: lighten($color: $blue, $amount: 30);
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background: $blue;
+	padding: 5rem 3rem;
+	text-align: center;
+	width: 16rem;
+	height: 90rem;
+
+	header:after {
+		display: none !important;
+	}
+
+	a {
+		color: lighten($color: $blue, $amount: 30);
+	}
+
+	& > * {
+		text-align: left;
+	}
+
+	img {
+		border-radius: 50%;
+		margin: 0 auto;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	}
+
+	h1 {
+		font-size: 2rem;
+		margin-bottom: 0;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: white;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+		margin-top: -0.2rem;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: lighten($color: $blue, $amount: 30);
+	}
+
+	header {
+		color: white;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		line-height: 1.5rem;
+	}
+
+	.info {
+		margin-top: 2rem;
+
+		.info-item {
+			margin-bottom: 1rem;
+			i {
+				font-size: 0.9rem;
+				line-height: 120%;
+				float: left;
+				color: white;
+			}
+
+			p,
+			a {
+				display: inline-block;
+				margin: 0;
+				margin-left: 20px;
+				font-weight: 400 !important;
+			}
+		}
+
+		#contact {
+			text-align: left;
+		}
+	}
+}
+
+#interest-tiles {
+	margin-top: 2rem;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2rem;
+
+	font-size: 0.8rem;
+	i {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+}
+
+//MAIN
+main {
+	font-size: 0.9rem;
+	margin: 5rem;
+	margin-left: 24rem;
+	section {
+		.full-item {
+			display: grid;
+			grid-template-columns: 2fr 6fr 5fr;
+			grid-template-rows: auto;
+			grid-template-areas: 'date title loc' '. desc desc';
+			align-items: end;
+			margin-bottom: 0.8rem;
+
+			.item-title {
+				font-weight: 300;
+				font-size: 1.3rem;
+				color: #212121;
+				grid-area: title;
+			}
+
+			.item-date {
+				grid-area: date;
+			}
+
+			.item-location {
+				color: dimgray;
+				text-align: right;
+				grid-area: loc;
+				a {
+					color: dimgray !important;
+				}
+			}
+
+			.item-description {
+				text-align: justify;
+				font-size: 0.8rem;
+				margin-top: 0.2rem;
+				grid-area: desc;
+			}
+		}
+
+		.simple-item {
+			display: grid;
+			grid-template-columns: 2fr 11fr;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+#technical-skills {
+	#featured-technical-skills {
+		margin-bottom: 2rem;
+	}
+
+	ul {
+		list-style: none;
+		li {
+			margin-bottom: 0.7rem;
+		}
+		li:before {
+			font-family: 'Font Awesome 5 Free';
+			content: '\f005';
+			margin-right: 0.8rem;
+			display: inline-block;
+			font-size: 0.8rem;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+	h1 {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.devicons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: baseline;
+		flex-direction: row;
+		margin-bottom: 1rem;
+
+		& > div {
+			margin: 0.7rem 0;
+			flex-basis: 12%;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+
+			i {
+				margin-bottom: 1rem;
+				font-size: 2rem;
+			}
+			svg {
+				padding-bottom: 1rem;
+				width: 2rem;
+				height: 2rem;
+				margin: 0 auto;
+			}
+		}
+
+		&#featured-technical-skills {
+			flex-direction: column;
+			& > div {
+				flex-direction: row;
+			}
+		}
+	}
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	& > span {
+		width: fit-content;
+		display: inline-block;
+		text-transform: lowercase;
+		font-variant: small-caps;
+		border: 1px solid gray;
+		border-radius: 5px;
+		padding: 0.2rem 0.5rem;
+		margin: 0.2rem 0.2rem;
+	}
+}
