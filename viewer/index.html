@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Dante De Ruwe</title>
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <div class="language">
+      <select name="language" id="lang">
+        <option value="CV_en">English</option>
+        <option value="CV_nl">Nederlands</option>
+      </select>
+    </div>
+    <div id="viewer"></div>
+  </body>
+</html>
+
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"
+  integrity="sha512-4ze/a9/4jqu+tX9dfOqJYSvyYd5M6qum/3HpCLr+/Jqf0whc37VUbkpNGHR7/8pSnCFw47T1fmIpwBV7UySh3g=="
+  crossorigin="anonymous"
+></script>
+
+<script>
+  let options = {
+    pdfOpenParams: { view: "Fit", page: "1" },
+  };
+  PDFObject.embed("CV_en.pdf", "#viewer", options);
+  document.querySelector("#lang").addEventListener("change", function () {
+    PDFObject.embed(`${this.value}.pdf`, "#viewer", options);
+  });
+</script>
+
+<style>
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #333 !important;
+  }
+
+  .language {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #lang {
+    background-color: #333 !important;
+    color: white;
+    padding: 0.2rem 0;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+
+  #viewer {
+    height: 100vh;
+  }
+</style>
