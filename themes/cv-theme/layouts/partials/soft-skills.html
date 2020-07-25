@@ -2,14 +2,9 @@
     <header>Soft skills</header>
 
     <div class="tags">
-        <span>Problemsolving</span>
-        <span>Taking initiative</span>
-        <span>Eager to learn</span>
-        <span>Social, spontaneous</span>
-        <span>Enthusiastic</span>
-        <span>Verbal communication</span>
-        <span>Independent</span>
-        <span>Responsible</span>
-        <span>Teamplayer with leader instinct</span>
+        {{range .Site.Data.soft_skills}}
+        <span>{{.}}</span>
+        {{end}}
     </div>
+    
 </section>
