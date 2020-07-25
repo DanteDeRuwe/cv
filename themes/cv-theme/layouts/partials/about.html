@@ -1,0 +1,18 @@
+{{with .Site.Data.about}}
+    <section id="about">
+        <h1 id="name">Dante De Ruwe</h1>
+        <h2 id="dob">02/06/1998</h2>
+        <div class="info">
+            {{range .icons}}
+                <div class="info-item">
+                    <i class="{{ .iconclass }}"></i>
+                    {{ if .href }}
+                        <a href={{.href}}>{{.text}}</a>
+                    {{ else }}
+                        <p>{{.text}}</p>
+                    {{end}}
+                </div>
+            {{end}}
+        </div>
+    </section>
+{{end}}
