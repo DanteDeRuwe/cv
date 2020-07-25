@@ -1,0 +1,4 @@
+baseURL       = "/"
+languageCode  = "en-US"
+title         = "CV | Dante De Ruwe"
+theme         = "cv-theme"
