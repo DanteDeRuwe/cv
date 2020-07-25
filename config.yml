@@ -11,3 +11,8 @@ languages:
         languageCode  : nl
         title         : CV | Dante De Ruwe
         weight        : 1
+
+markup: 
+    goldmark: 
+        renderer: 
+            unsafe: true
