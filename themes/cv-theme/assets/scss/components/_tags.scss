@@ -1,0 +1,14 @@
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	& > span {
+		width: fit-content;
+		display: inline-block;
+		text-transform: lowercase;
+		font-variant: small-caps;
+		border: 1px solid gray;
+		border-radius: 5px;
+		padding: 0.2rem 0.5rem;
+		margin: 0.2rem 0.2rem;
+	}
+}

@@ -1,0 +1,61 @@
+@media print {
+	* {
+		font-size: 0.75rem !important;
+	}
+
+	.devicons {
+		margin-bottom: -1rem !important;
+		i {
+			font-size: 1rem !important;
+		}
+
+		svg {
+			width: 1rem !important;
+			height: 1rem !important;
+		}
+
+		span {
+			font-size: 0.5rem !important;
+		}
+	}
+
+	header {
+		font-size: 1.3rem !important;
+	}
+
+	aside {
+		width: 14rem !important;
+		height: 83.5rem !important; //just by trial and error
+
+		#name {
+			font-weight: 300 !important;
+			font-size: 1.7rem !important;
+		}
+
+		#dob {
+			font-size: 1rem !important;
+		}
+
+		img {
+			width: 13rem;
+			height: 13rem;
+		}
+
+		#contact .info .info-item {
+			margin-bottom: 0.5rem !important;
+		}
+	}
+
+	main {
+		margin-top: 5rem !important;
+		margin-left: 22rem !important;
+
+		.item-title {
+			font-size: 1rem !important;
+		}
+
+		.item-description {
+			font-size: 0.6rem !important;
+		}
+	}
+}
