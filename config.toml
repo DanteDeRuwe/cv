@@ -1,4 +1,13 @@
-baseURL       = "/"
-languageCode  = "en-US"
-title         = "CV | Dante De Ruwe"
 theme         = "cv-theme"
+
+[languages]
+    [languages.en]
+        baseURL       = ""
+        languageCode  = "en"
+        title         = "CV | Dante De Ruwe"
+        weight        = 2
+    [languages.nl]
+        baseURL       = ""
+        languageCode  = "nl"
+        title         = "CV | Dante De Ruwe"
+        weight        = 1

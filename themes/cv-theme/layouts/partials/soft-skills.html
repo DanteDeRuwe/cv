@@ -2,9 +2,10 @@
     <header>Soft skills</header>
 
     <div class="tags">
-        {{range .Site.Data.soft_skills}}
+        {{ $data := index .Site.Data .Site.Language.Lang }}
+        {{range $data.soft_skills}}
         <span>{{.}}</span>
         {{end}}
     </div>
-    
+
 </section>
