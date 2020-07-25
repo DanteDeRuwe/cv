@@ -1,11 +1,11 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.soft_skills}}
 <section id="soft-skills">
-    <header>Soft skills</header>
-
+    <header>{{.title}}</header>
     <div class="tags">
-        {{ $data := index .Site.Data .Site.Language.Lang }}
-        {{range $data.soft_skills}}
-        <span>{{.}}</span>
+        {{range .skills}}
+            <span>{{.}}</span>
         {{end}}
     </div>
-
 </section>
+{{end}}
