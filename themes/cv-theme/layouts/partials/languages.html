@@ -1,11 +1,14 @@
-<section id="language">
-    <header>Languages</header>
-    <div>
-        <ul>
-            <li>Dutch (native)</li>
-            <li>English (C2, proficient)</li>
-            <li>French (professional)</li>
-        </ul>
-    </div>
-</section>
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.languages}}
+    <section id="language">
+        <header>{{.title}}</header>
+        <div>
+            <ul>
+                {{range .languages}}
+                    <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </section>
+{{end}}
 
