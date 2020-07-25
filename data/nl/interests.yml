@@ -1,0 +1,10 @@
+title: Interesses
+interests:   
+  - name: Wetenschap
+    iconclass: fas fa-rocket
+  - name: Muziek
+    iconclass: fab fa-itunes-note
+  - name: IT & technologie
+    iconclass: fas fa-power-off
+  - name: Koken
+    iconclass: fas fa-utensils

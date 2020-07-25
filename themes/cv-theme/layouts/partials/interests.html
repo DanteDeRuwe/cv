@@ -1,9 +1,11 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.interests}}
 <section id="interests">
-    <header>Interests</header>
+    <header>{{.title}}</header>
     <div id="interest-tiles">
-        <div><i class="fas fa-rocket"></i><br />Science</div>
-        <div><i class="fab fa-itunes-note"></i><br />Music</div>
-        <div><i class="fas fa-power-off"></i><br />IT & Technology</div>
-        <div><i class="fas fa-utensils"></i><br />Cooking</div>
+        {{range .interests}}
+            <div><i class="{{.iconclass}}"></i><br />{{.name}}</div>
+        {{end}}
     </div>
 </section>
+{{end}}
