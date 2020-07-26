@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous"/>
     {{ "<!-- devicons -->" | safeHTML }}
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"/>
+    {{ "<!-- iconify -->" | safeHTML }}
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     {{ "<!-- Main Stylesheets -->" | safeHTML }}
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
     <link href="{{ $style.Permalink }}" rel="stylesheet" />

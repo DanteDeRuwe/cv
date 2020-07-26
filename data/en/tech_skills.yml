@@ -19,8 +19,6 @@ techs:
       class: devicon-java-plain
     - name: Python
       class: devicon-python-plain
-    - name: SQL
-      class: fa fa-database
     - name: Javascript
       class: devicon-javascript-plain
     - name: Typescript
@@ -35,6 +33,12 @@ techs:
       class: devicon-sass-original
     - name: Bootstrap
       class: devicon-bootstrap-plain
+    - name: Hugo
+      class: iconify icon:simple-icons:hugo icon-inline:false
+    - name: SQL
+      class: fa fa-database
+    - name: GraphQL
+      class: iconify icon:cib:graphql icon-inline:false
     - name: Git
       class: devicon-git-plain
 future:
