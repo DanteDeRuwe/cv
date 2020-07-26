@@ -9,7 +9,7 @@
     .item-title {
         font-weight: 300;
         font-size: 1.3rem;
-        color: #212121;
+        color: $darker-text-color;
         grid-area: title;
     }
 
@@ -18,11 +18,11 @@
     }
 
     .item-location {
-        color: dimgray;
+        color: $lighter-text-color;
         text-align: right;
         grid-area: loc;
         a {
-            color: dimgray !important;
+            color: $lighter-text-color !important;
         }
     }
 

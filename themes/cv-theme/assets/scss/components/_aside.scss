@@ -1,10 +1,10 @@
 aside {
-	color: lighten($color: $blue, $amount: 30);
+	color: lighten($color: $primary-color, $amount: 30);
 	position: absolute;
 	top: 0;
 	left: 0;
 	bottom: 0;
-	background: $blue;
+	background: $primary-color;
 	padding: 5rem 3rem;
 	text-align: center;
 	width: 16rem;
@@ -25,7 +25,7 @@ aside {
 	}
 
 	a {
-		color: lighten($color: $blue, $amount: 30);
+		color: lighten($color: $primary-color, $amount: 30);
 	}
 
 	& > * {
@@ -51,7 +51,7 @@ aside {
 		margin-top: -0.2rem;
 		font-weight: 300;
 		text-transform: uppercase;
-		color: lighten($color: $blue, $amount: 30);
+		color: lighten($color: $primary-color, $amount: 30);
 	}
 
 	header {
