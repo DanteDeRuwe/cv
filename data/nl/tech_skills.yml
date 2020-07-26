@@ -1,0 +1,45 @@
+title: Technische Vaardigheden
+general:
+  title: Algemene IT kennis
+  text: Software design patterns, databank ontwerp, agile methodologieën (scrum, kanban), objectgeörienteerd programmeren, full-stack web development.
+projects:
+  title: Projectervaring
+  projects:
+    - Full stack web applicatie met .NET Core GraphQL API backend en Angular 9 frontend.
+    - .NET Core MVC web-applicatie.
+    - Java desktop applicatie met JavaFX GUI.
+  extra: Bij elk van deze items hoorde een SQL database (MySQL of Microsoft SQL Server).
+techs:
+  title: Tools, techs en talen
+  techs: 
+    - name: C#
+      class: devicon-csharp-plain
+    - name: .NET Core
+    - name: Java
+      class: devicon-java-plain
+    - name: Python
+      class: devicon-python-plain
+    - name: SQL
+      class: fa fa-database
+    - name: Javascript
+      class: devicon-javascript-plain
+    - name: Typescript
+      class: devicon-typescript-plain
+    - name: Angular
+      class: devicon-angularjs-plain
+    - name: HTML
+      class: devicon-html5-plain
+    - name: CSS
+      class: devicon-css3-plain
+    - name: SCSS
+      class: devicon-sass-original
+    - name: Bootstrap
+      class: devicon-bootstrap-plain
+    - name: Git
+      class: devicon-git-plain
+future:
+  title: Eventuele toekomstige experimenten
+  text: Blazor, Xamarin, WebWindow, NoSQL databases, serverless architecture, headless CMS, static site generators, ...
+
+
+
