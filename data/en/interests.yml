@@ -1,0 +1,10 @@
+title: Interests
+interests:   
+  - name: Science
+    iconclass: fas fa-rocket
+  - name: Music
+    iconclass: fab fa-itunes-note
+  - name: IT & Technology
+    iconclass: fas fa-power-off
+  - name: Cooking
+    iconclass: fas fa-utensils

@@ -1,0 +1,11 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.interests}}
+<section id="interests">
+    <header>{{.title}}</header>
+    <div id="interest-tiles">
+        {{range .interests}}
+            <div><i class="{{.iconclass}}"></i><br />{{.name}}</div>
+        {{end}}
+    </div>
+</section>
+{{end}}

@@ -1,0 +1,45 @@
+title: Technical Skills
+general:
+  title: General IT knowhow
+  text: Software design patterns, database design, agile methodologies (scrum, kanban), object-oriented programming, full-stack web development.
+projects:
+  title: Project Experience
+  projects:
+    - Full stack web application with .NET Core GraphQL API backend and Angular 9 frontend.
+    - .NET Core MVC web-application.
+    - Java desktop application with JavaFX GUI.
+  extra: Every project included a SQL database (MySQL or Microsoft SQL Server).
+techs:
+  title: Tools, techs and languages
+  techs: 
+    - name: C#
+      class: devicon-csharp-plain
+    - name: .NET Core
+    - name: Java
+      class: devicon-java-plain
+    - name: Python
+      class: devicon-python-plain
+    - name: SQL
+      class: fa fa-database
+    - name: Javascript
+      class: devicon-javascript-plain
+    - name: Typescript
+      class: devicon-typescript-plain
+    - name: Angular
+      class: devicon-angularjs-plain
+    - name: HTML
+      class: devicon-html5-plain
+    - name: CSS
+      class: devicon-css3-plain
+    - name: SCSS
+      class: devicon-sass-original
+    - name: Bootstrap
+      class: devicon-bootstrap-plain
+    - name: Git
+      class: devicon-git-plain
+future:
+  title: Future experimentation
+  text: Blazor, Xamarin, WebWindow, NoSQL databases, serverless architecture, headless CMS, static site generators, ...
+
+
+

@@ -1,0 +1,7 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.profile}}
+<section id="profile">
+    <header>{{.title}}</header>
+    <p>{{markdownify .text}}</p>
+</section>
+{{end}}

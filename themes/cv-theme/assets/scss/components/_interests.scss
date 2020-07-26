@@ -1,0 +1,14 @@
+#interest-tiles {
+	margin-top: 2rem;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 2rem;
+
+	font-size: 0.8rem;
+	i {
+		font-size: 1rem;
+		margin-bottom: 0.5rem;
+	}
+}

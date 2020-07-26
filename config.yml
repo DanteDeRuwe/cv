@@ -1,0 +1,18 @@
+theme         : "cv-theme"
+
+languages:
+    en:
+        baseURL       : ""
+        languageCode  : en
+        title         : CV | Dante De Ruwe
+        weight        : 2
+    nl:
+        baseURL       : ""
+        languageCode  : nl
+        title         : CV | Dante De Ruwe
+        weight        : 1
+
+markup: 
+    goldmark: 
+        renderer: 
+            unsafe: true

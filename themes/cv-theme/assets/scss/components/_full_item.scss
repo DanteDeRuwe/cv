@@ -1,0 +1,35 @@
+.full-item {
+    display: grid;
+    grid-template-columns: 2fr 6fr 5fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'date title loc' '. desc desc';
+    align-items: end;
+    margin-bottom: 0.8rem;
+
+    .item-title {
+        font-weight: 300;
+        font-size: 1.3rem;
+        color: #212121;
+        grid-area: title;
+    }
+
+    .item-date {
+        grid-area: date;
+    }
+
+    .item-location {
+        color: dimgray;
+        text-align: right;
+        grid-area: loc;
+        a {
+            color: dimgray !important;
+        }
+    }
+
+    .item-description {
+        text-align: justify;
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        grid-area: desc;
+    }
+}

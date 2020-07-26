@@ -1,0 +1,22 @@
+name: Dante De Ruwe
+dob: 02/06/1998
+icons:
+  - text: Brugge, BE
+    href: 
+    iconclass: fas fa-home
+  - text: +32 475 259 552
+    href: 
+    iconclass: fas fa-phone
+  - text: dantederuwe@gmail.com
+    href: mailto:dantederuwe@gmail.com
+    iconclass: fas fa-at
+  - text: linkedin.com/in/dantederuwe
+    href: https://www.linkedin.com/in/dantederuwe/
+    iconclass: fab fa-linkedin
+  - text: github.com/dantederuwe
+    href: https://www.github.com/dantederuwe/
+    iconclass: fab fa-github
+  - text: dante.deruwe.me
+    href: https://dante.deruwe.me/
+    iconclass: far fa-user
+    

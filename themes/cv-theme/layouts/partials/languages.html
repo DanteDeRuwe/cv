@@ -1,0 +1,14 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{with $data.languages}}
+    <section id="language">
+        <header>{{.title}}</header>
+        <div>
+            <ul>
+                {{range .languages}}
+                    <li>{{.}}</li>
+                {{end}}
+            </ul>
+        </div>
+    </section>
+{{end}}
+

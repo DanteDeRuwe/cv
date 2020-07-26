@@ -1,0 +1,61 @@
+#technical-skills {
+	#featured-technical-skills {
+		margin-bottom: 2rem;
+	}
+
+	ul {
+		list-style: none;
+		li {
+			margin-bottom: 0.7rem;
+		}
+		li:before {
+			font-family: 'Font Awesome 5 Free';
+			content: '\f005';
+			margin-right: 0.8rem;
+			display: inline-block;
+			font-size: 0.8rem;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+	h1 {
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.devicons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: baseline;
+		flex-direction: row;
+		margin-bottom: 1rem;
+
+		& > div {
+			margin: 0.7rem 0;
+			flex-basis: 12%;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+
+			i {
+				margin-bottom: 1rem;
+				font-size: 2rem;
+			}
+			svg {
+				padding-bottom: 1rem;
+				width: 2rem;
+				height: 2rem;
+				margin: 0 auto;
+			}
+		}
+
+		&#featured-technical-skills {
+			flex-direction: column;
+			& > div {
+				flex-direction: row;
+			}
+		}
+	}
+}
