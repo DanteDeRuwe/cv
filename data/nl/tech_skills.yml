@@ -8,7 +8,7 @@ projects:
     - Full stack web applicatie met .NET Core GraphQL API backend en Angular 9 frontend.
     - .NET Core MVC web-applicatie.
     - Java desktop applicatie met JavaFX GUI.
-  extra: Bij elk van deze items hoorde een SQL database (MySQL of Microsoft SQL Server).
+  extra: Bij elk van deze items hoorde een SQL database (MySQL of Microsoft SQL Server). Bekijk mijn Github voor meer informatie.
 techs:
   title: Tools, techs en talen
   techs: 
@@ -43,7 +43,4 @@ techs:
       class: devicon-git-plain
 future:
   title: Eventuele toekomstige experimenten
-  text: Blazor, Xamarin, WebWindow, NoSQL databases, serverless architecture, headless CMS, static site generators, ...
-
-
-
+  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, NodeJS, Deno, Go, Flutter, React, Gatsby, Vue, Docker, Kubernetes, NoSQL databases, serverless architecture, headless CMS ...

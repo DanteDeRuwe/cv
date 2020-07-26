@@ -8,7 +8,7 @@ projects:
     - Full stack web application with .NET Core GraphQL API backend and Angular 9 frontend.
     - .NET Core MVC web-application.
     - Java desktop application with JavaFX GUI.
-  extra: Every project included a SQL database (MySQL or Microsoft SQL Server).
+  extra: Every project included a SQL database (MySQL or Microsoft SQL Server). See my Github for more information.
 techs:
   title: Tools, techs and languages
   techs: 
@@ -43,7 +43,4 @@ techs:
       class: devicon-git-plain
 future:
   title: Future experimentation
-  text: Blazor, Xamarin, WebWindow, NoSQL databases, serverless architecture, headless CMS, static site generators, ...
-
-
-
+  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, NodeJS, Deno, Go, Flutter, React, Gatsby, Vue, Docker, Kubernetes, NoSQL databases, serverless architecture, headless CMS ...
