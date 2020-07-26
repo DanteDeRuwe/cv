@@ -1,0 +1,20 @@
+title: Opleidingen
+items:
+  - period: 2018 - heden
+    degree: Professionele Bachelor
+    field: "Toegepaste Informatica: applicatieontwikkeling"
+    location: 
+      name: Hogeschool Gent
+      link: https://hogent.be/
+  - period: 2016 - 2018
+    degree: Bachelor of Science
+    field:  Fysica en Sterrenkunde (onafgewerkt)
+    location: 
+      name: Universiteit Gent
+      link: https://ugent.be/
+  - period: 2010 - 2016
+    degree: Secundair Onderwijs
+    field: Latijn, Wetenschappen Wiskunde 8
+    location: 
+      name: St-Franciscus-Xaveriusinstituut Brugge
+      link: https://sfxbrugge.be/
