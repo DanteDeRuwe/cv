@@ -5,7 +5,11 @@
     {{range .items}}
     <div class="full-item">
         <div class="item-date">{{.period}}</div>
-        <div class="item-title">{{.function}}</div>
+        <div class="item-title">{{.function}}
+            {{if .extra }}
+            <small style="color: gray;">({{.extra}})</small>
+            {{ end }}
+        </div>
         {{ if .location.link }}
         <a href="{{.location.link}}" class="item-location">{{.location.name}}</a>
         {{ else }}

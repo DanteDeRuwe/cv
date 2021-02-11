@@ -1,7 +1,8 @@
 title: Experience
 items:
   - period: Spring 2021
-    function: Software Engineer (International Internship)
+    function: Software Engineer
+    extra: international internship
     description: "Software engineer for internal and external projects.
     Contributing to Piral, an open-source software framework for modular
     frontend applications. Definition and development of automated tests. Setup
@@ -11,7 +12,8 @@ items:
       name: Smapiot (Munich, DE)
       link: https://smapiot.com/
   - period: Summer 2020
-    function: Developer (Student Job)
+    function: Developer
+    extra: student job
     description: "Software developer focussing on full-stack web development,
     process automation, database scripting and much more. Technologies used: C#
     .NET Core, SQL, WPF, ..."
@@ -19,7 +21,8 @@ items:
       name: Novado
       link: https://novado.be/
   - period: Summer 2019
-    function: Administrative Assistant (Student Job)
+    function: Administrative Assistant
+    extra: student job
     description: "My job was to assist the administrative team in managing
     freight documents and other paperwork; and process them through our new IT
     system. I also offered to assist by doing business process improvement: I
@@ -30,7 +33,8 @@ items:
       name: Continental Cargo Carriers
       link: https://ccctransport.com/
   - period: 2017 - 2019
-    function: Observatory Tour Guide (Student Job)
+    function: Observatory Tour Guide
+    extra: student job
     description: "My responsibility was educating groups of visitors on guided
     tours through the observatory. Tasks include operating the planetarium and
     telescopes while explaining the basics of astronomy, as well as guiding
@@ -40,7 +44,8 @@ items:
       name: Cozmix
       link: http://cozmix.be/en/home
   - period: 2013 - 2017
-    function: Various hospitality student jobs
+    function: Hospitality employee
+    extra: multiple student jobs
     description: "Taking and preparing orders for mainly tourists and students.
     Mostly very busy places."
     location: 

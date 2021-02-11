@@ -1,7 +1,8 @@
 title: Ervaring
 items:
   - period: Lente 2021
-    function: "Internationale Stage: Software Engineer" 
+    function: "Software Engineer"
+    extra: internationale stage
     description: "Software engineer voor interne en externe projecten.
     Bijdrage aan Piral, een open-source software framework voor modulaire
     frontend applicaties. Definitie en development van geautomatiseerde tests. Setup
@@ -11,7 +12,8 @@ items:
       name: Smapiot (München, DE)
       link: https://smapiot.com/
   - period: Zomer 2020
-    function: Jobstudent Developer
+    function: Developer
+    extra: studentenjob
     description: "Software developer met een focus op full-stack web
     development, process automation, database scripting en veel meer. Gebruikte
     technologieën: C# .NET Core, SQL, WPF, .."
@@ -19,7 +21,8 @@ items:
       name: Novado
       link: https://novado.be/
   - period: Zomer 2019
-    function: Jobstudent Administratie
+    function: Administratief assistent
+    extra: studentenjob
     description: "Assisteren van het administratieteam bij het verwerken van
     papierwerk. Ook deed ik aan business process improvement: zo schreef ik
     bijvoorbeeld een Excel script dat ons admin team een volledige namiddag per
@@ -29,7 +32,8 @@ items:
       name: Continental Cargo Carriers
       link: https://ccctransport.com/
   - period: 2017 - 2019
-    function: Jobstudent Gids Volkssterrenwacht
+    function: Gids Volkssterrenwacht
+    extra: studentenjob
     description: "Gidsen van bezoekers doorheen de faciliteiten van
     Volkssterrenwacht Beisbroek. Van kleuters tot senioren, ik toonde ze met een
     glimlach de wonderen van het heelal. Hierbij bediende ik het planetarium en
@@ -38,7 +42,8 @@ items:
       name: Cozmix
       link: http://cozmix.be/
   - period: 2013 - 2017
-    function: Jobstudent Horeca
+    function: Horecamedewerker
+    extra: meerdere studentenjobs
     description: "Kassa, bestellingen opnemen en klaarmaken. Dit alles in grote
     drukte voor voornamelijk internationale toeristen en studenten."
     location: 
