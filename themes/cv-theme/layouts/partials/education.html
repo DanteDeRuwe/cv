@@ -1,14 +1,18 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{with $data.education}}
-    <section id="education">
-        <header>{{.title}}</header>
-        {{range .items}}
-            <div class="full-item">
-                <div class="item-date">{{.period}}</div>
-                <div class="item-title">{{.degree}}</div>
-                <a href="{{.location.link}}" class="item-location">{{.location.name}}</a>
-                <div class="item-description">{{.field}}</div>
-            </div>
-        {{end}}
-    </section>
+<section id="education">
+    <header>{{.title}}</header>
+    {{range .items}}
+    <div class="full-item">
+        <div class="item-date">{{.period}}</div>
+        <div class="item-title">{{.field}}</div>
+        <a href="{{.location.link}}" class="item-location">{{.location.name}}</a>
+        <div class="item-description">{{.degree}}
+            {{if .specialization}}
+            <span style="color:gray">({{.specialization}})</span>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+</section>
 {{end}}

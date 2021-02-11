@@ -2,13 +2,15 @@ title: Education
 items:
   - period: 2018 - 2021
     degree: Professional Bachelor
-    field: "Applied Information Technology: application development"
+    specialization: "specialization: app development"
+    field: "Applied Information Technology"
     location: 
       name: Ghent University College
       link: https://hogent.be/en
   - period: 2016 - 2018
-    degree: Bachelor of Science
-    field:  Physics and Astronomy (did not finish)
+    degree: Bachelor of Science 
+    specialization: did not finish
+    field:  Physics and Astronomy 
     location: 
       name: Ghent University
       link: https://ugent.be/en
