@@ -1,14 +1,18 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{with $data.experience}}
-    <section id="experience">
-        <header>{{.title}}</header>
-        {{range .items}}
-            <div class="full-item">
-                <div class="item-date">{{.period}}</div>
-                <div class="item-title">{{.function}}</div>
-                <a href="{{.location.link}}" class="item-location">{{.location.name}}</a>
-                <div class="item-description">{{.description}}</div>
-            </div>
+<section id="experience">
+    <header>{{.title}}</header>
+    {{range .items}}
+    <div class="full-item">
+        <div class="item-date">{{.period}}</div>
+        <div class="item-title">{{.function}}</div>
+        {{ if .location.link }}
+        <a href="{{.location.link}}" class="item-location">{{.location.name}}</a>
+        {{ else }}
+        <p class="item-location">{{.location.name}}</p>
         {{end}}
-    </section>
+        <div class="item-description">{{.description}}</div>
+    </div>
+    {{end}}
+</section>
 {{end}}
