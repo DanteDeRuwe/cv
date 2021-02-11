@@ -20,7 +20,8 @@ techs:
   techs: 
     - name: C#
       class: devicon-csharp-plain
-    - name: .NET Core
+    - name: .NET
+      class: iconify icon:cib:dot-net icon-inline:false
     - name: Java
       class: devicon-java-plain
     - name: Python
