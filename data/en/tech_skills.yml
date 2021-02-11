@@ -1,14 +1,20 @@
 title: Technical Skills
 general:
   title: General IT knowhow
-  text: Software design patterns, database design, agile methodologies (scrum, kanban), object-oriented programming, full-stack web development.
+  text: Software design patterns, database design, agile methodologies (scrum, kanban, XP), object-oriented programming, full-stack web development.
 projects:
-  title: Project Experience
+  title: Project experience highlights
   projects:
-    - Full stack web application with .NET Core GraphQL API backend and Angular 9 frontend.
-    - .NET Core MVC web-application.
-    - Java desktop application with JavaFX GUI.
-  extra: Every project included a SQL database (MySQL or Microsoft SQL Server). See my Github for more information.
+    - name: TV series dicovery and tracking application
+      techs: .NET Core GraphQL API + Angular web app
+      link: https://deruwe.me/projects/zappr/
+    - name: Walk app for charity organisation Action Damien
+      techs: .NET Core REST API + Angular web app + Android app
+      link: https://deruwe.me/projects/damien-experience/
+    - name: Event management system
+      techs: .NET MVC web app + Java desktop back-office with JavaFX GUI
+      link: https://deruwe.me/projects/lorem/
+  extra: Click the star icons or check out my website for more information, demos and screenshots.
 techs:
   title: Tools, techs and languages
   techs: 
@@ -43,4 +49,4 @@ techs:
       class: devicon-git-plain
 future:
   title: Future experimentation
-  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, NodeJS, Deno, Go, Flutter, React, Gatsby, Vue, Docker, Kubernetes, NoSQL databases, serverless architecture, headless CMS ...
+  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, Go, Docker, Kubernetes, serverless architecture, headless CMS ...

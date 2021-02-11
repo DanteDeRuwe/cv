@@ -13,15 +13,20 @@
     {{end}}
 
     {{with .projects}}
-        <h1>{{.title}}</h1>
-        <div id="featured-technical-skills">
-            <ul>
-                {{range .projects}}
-                <li>{{.}}</li>
-                {{end}}
-            </ul>
-            <em style="color: gray;">{{.extra}}</em>
-        </div>
+    <h1>{{.title}}</h1>
+    <div id="featured-technical-skills">
+        <ul>
+            {{range .projects}}
+            <a href="{{.link}}" style="color:inherit">
+                <li>
+                    <span>{{.name}}</span>
+                    (<small style="color:gray">{{.techs}}</small>)
+                </li>
+            </a>
+            {{end}}
+        </ul>
+        <em style="color: gray;">{{.extra}}</em>
+    </div>
     {{end}}
 
     {{with .techs}}

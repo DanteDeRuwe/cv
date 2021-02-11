@@ -1,14 +1,20 @@
 title: Technische Vaardigheden
 general:
   title: Algemene IT kennis
-  text: Software design patterns, databank ontwerp, agile methodologieën (scrum, kanban), objectgeörienteerd programmeren, full-stack web development.
+  text: Software design patterns, databank ontwerp, agile methodologieën (scrum, kanban, XP), objectgeörienteerd programmeren, full-stack web development.
 projects:
-  title: Projectervaring
+  title: Projectervaring highlights
   projects:
-    - Full stack web applicatie met .NET Core GraphQL API backend en Angular 9 frontend.
-    - .NET Core MVC web-applicatie.
-    - Java desktop applicatie met JavaFX GUI.
-  extra: Bij elk van deze items hoorde een SQL database (MySQL of Microsoft SQL Server). Bekijk mijn Github voor meer informatie.
+    - name: TV tracking applicatie
+      techs: .NET Core GraphQL API + Angular web app
+      link: https://deruwe.me/projects/zappr/
+    - name: Wandel app voor NGO Damiaanactie
+      techs: .NET Core REST API + Angular web app + Android app
+      link: https://deruwe.me/projects/damien-experience/
+    - name: Event management systeem
+      techs: .NET MVC web app + Java desktop back-office met JavaFX GUI
+      link: https://deruwe.me/projects/lorem/
+  extra: Kijk op mijn website voor meer info, demo's en screenshots
 techs:
   title: Tools, techs en talen
   techs: 
@@ -43,4 +49,4 @@ techs:
       class: devicon-git-plain
 future:
   title: Eventuele toekomstige experimenten
-  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, NodeJS, Deno, Go, Flutter, React, Gatsby, Vue, Docker, Kubernetes, NoSQL databases, serverless architecture, headless CMS ...
+  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, Go, Docker, Kubernetes, serverless architecture, headless CMS ...
