@@ -8,7 +8,7 @@ projects:
     - name: TV series dicovery and tracking application
       techs: .NET Core GraphQL API + Angular web app
       link: https://deruwe.me/projects/zappr/
-    - name: Walk app for charity organisation Action Damien
+    - name: Walk app for charity Action Damien
       techs: .NET Core REST API + Angular web app + Android app
       link: https://deruwe.me/projects/damien-experience/
     - name: Event management system
