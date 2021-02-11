@@ -1,26 +1,45 @@
 title: Ervaring
 items:
+  - period: Lente 2021
+    function: "Internationale Stage: Software Engineer" 
+    description: "Software engineer voor interne en externe projecten.
+    Bijdrage aan Piral, een open-source software framework voor modulaire
+    frontend applicaties. Definitie en development van geautomatiseerde tests. Setup
+    en configuratie van CI/CD processen. Actieve deelname in
+    softwareontwikkeling volgens de scrum methodologie."
+    location: 
+      name: Smapiot (München, DE)
+      link: https://smapiot.com/
   - period: Zomer 2020
     function: Jobstudent Developer
-    description: "Software developer met een focus op full-stack web development, process automation, database scripting en veel meer. Gebruikte technologieën: C# .NET Core, SQL, WPF, .."
+    description: "Software developer met een focus op full-stack web
+    development, process automation, database scripting en veel meer. Gebruikte
+    technologieën: C# .NET Core, SQL, WPF, .."
     location: 
       name: Novado
       link: https://novado.be/
   - period: Zomer 2019
     function: Jobstudent Administratie
-    description: "Assisteren van het administratieteam bij het verwerken van papierwerk. Ook deed ik aan business process improvement: zo schreef ik bijvoorbeeld een Excel script dat ons admin team een volledige namiddag per week aan tijd bespaarde. Hiernaast stak ik een handje toe aan de communicatie met de klanten."
+    description: "Assisteren van het administratieteam bij het verwerken van
+    papierwerk. Ook deed ik aan business process improvement: zo schreef ik
+    bijvoorbeeld een Excel script dat ons admin team een volledige namiddag per
+    week aan tijd bespaarde. Hiernaast stak ik een handje toe aan de
+    communicatie met de klanten."
     location: 
       name: Continental Cargo Carriers
       link: https://ccctransport.com/
   - period: 2017 - 2019
     function: Jobstudent Gids Volkssterrenwacht
-    description: "Gidsen van bezoekers doorheen de faciliteiten van Volkssterrenwacht Beisbroek. Van kleuters tot senioren, ik toonde ze met een glimlach de wonderen van het heelal. Hierbij bediende ik het planetarium en de telescoop, en bemande ik de kassa."
+    description: "Gidsen van bezoekers doorheen de faciliteiten van
+    Volkssterrenwacht Beisbroek. Van kleuters tot senioren, ik toonde ze met een
+    glimlach de wonderen van het heelal. Hierbij bediende ik het planetarium en
+    de telescoop, en bemande ik de kassa."
     location: 
       name: Cozmix
       link: http://cozmix.be/
   - period: 2013 - 2017
     function: Jobstudent Horeca
-    description: "Kassa, bestellingen opnemen en klaarmaken. Dit alles in grote drukte voor voornamelijk internationale toeristen en studenten."
+    description: "Kassa, bestellingen opnemen en klaarmaken. Dit alles in grote
+    drukte voor voornamelijk internationale toeristen en studenten."
     location: 
       name: ...
-      link: 

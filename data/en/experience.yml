@@ -1,26 +1,47 @@
 title: Experience
 items:
+  - period: Spring 2021
+    function: Software Engineer (International Internship)
+    description: "Software engineer for internal and external projects.
+    Contributing to Piral, an open-source software framework for modular
+    frontend applications. Definition and development of automated tests. Setup
+    and configuration of CI/CD processes. Active participating in software
+    development mainly aligned to the scrum methodology"
+    location: 
+      name: Smapiot (Munich, DE)
+      link: https://smapiot.com/
   - period: Summer 2020
     function: Developer (Student Job)
-    description: "Software developer focussing on full-stack web development, process automation, database scripting and much more. Technologies used: C# .NET Core, SQL, WPF, ..."
+    description: "Software developer focussing on full-stack web development,
+    process automation, database scripting and much more. Technologies used: C#
+    .NET Core, SQL, WPF, ..."
     location: 
       name: Novado
       link: https://novado.be/
   - period: Summer 2019
     function: Administrative Assistant (Student Job)
-    description: "My job was to assist the administrative team in managing freight documents and other paperwork; and process them through our new IT system. I also offered to assist by doing business process improvement: I wrote a script which saved our admin team one afternoon a week, for example. Additionally, I lend a helping hand with customer communication and assistance."
+    description: "My job was to assist the administrative team in managing
+    freight documents and other paperwork; and process them through our new IT
+    system. I also offered to assist by doing business process improvement: I
+    wrote a script which saved our admin team one afternoon a week, for example.
+    Additionally, I lend a helping hand with customer communication and
+    assistance."
     location: 
       name: Continental Cargo Carriers
       link: https://ccctransport.com/
   - period: 2017 - 2019
     function: Observatory Tour Guide (Student Job)
-    description: "My responsibility was educating groups of visitors on guided tours through the observatory. Tasks include operating the planetarium and telescopes while explaining the basics of astronomy, as well as guiding through the exhibition, dealing with administrative tasks and managing ticket sales."
+    description: "My responsibility was educating groups of visitors on guided
+    tours through the observatory. Tasks include operating the planetarium and
+    telescopes while explaining the basics of astronomy, as well as guiding
+    through the exhibition, dealing with administrative tasks and managing
+    ticket sales."
     location: 
       name: Cozmix
       link: http://cozmix.be/en/home
   - period: 2013 - 2017
     function: Various hospitality student jobs
-    description: "Taking and preparing orders for mainly tourists and students. Mostly very busy places."
+    description: "Taking and preparing orders for mainly tourists and students.
+    Mostly very busy places."
     location: 
       name: ...
-      link: 
