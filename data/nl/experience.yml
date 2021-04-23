@@ -3,11 +3,12 @@ items:
   - period: Lente 2021
     function: "Software Engineer"
     extra: internationale stage
-    description: "Software engineer voor interne en externe projecten.
-    Bijdrage aan Piral, een open-source software framework voor modulaire
-    frontend applicaties. Definitie en development van geautomatiseerde tests. Setup
-    en configuratie van CI/CD processen. Actieve deelname in
-    softwareontwikkeling volgens de scrum methodologie."
+    description: "Software engineer met actieve deelname in open-source software
+    development. Bijdrage aan Piral, een framework gebaseerd op React voor
+    modulaire frontend applicaties, ook bekend als microfrontends. Verbeteren
+    van de \"developer experience\" en robuustheid van piral-blazor, een
+    converter die microfrontends met Blazor WebAssembly mogelijk maken binnen
+    het Piral framework. Creatie van artikels en demo-applicaties voor de Piral community." 
     location: 
       name: Smapiot (München, DE)
       link: https://smapiot.com/

@@ -1,18 +1,19 @@
 title: Experience
 items:
   - period: Spring 2021
-    function: Software Engineer
-    extra: international internship
-    description: "Software engineer for internal and external projects.
-    Contributing to Piral, an open-source software framework for modular
-    frontend applications. Definition and development of automated tests. Setup
-    and configuration of CI/CD processes. Active participating in software
-    development mainly aligned to the scrum methodology"
+    function: Software engineer 
+    extra: international internship 
+    description: "Software engineer actively participating in open-source
+    software development. Contributing to Piral, a framework based on React for modular
+    frontend applications, also known as microfrontends. Improving developer
+    experience and robustness for piral-blazor, a converter that makes
+    microfrontends with Blazor WebAssembly possible within the Piral framework.
+    Creation of articles and sample applications for the Piral community." 
     location: 
       name: Smapiot (Munich, DE)
       link: https://smapiot.com/
   - period: Summer 2020
-    function: Developer
+    function: Software developer
     extra: student job
     description: "Software developer focussing on full-stack web development,
     process automation, database scripting and much more. Technologies used: C#
@@ -21,7 +22,7 @@ items:
       name: Novado
       link: https://novado.be/
   - period: Summer 2019
-    function: Administrative Assistant
+    function: Administrative assistant
     extra: student job
     description: "My job was to assist the administrative team in managing
     freight documents and other paperwork; and process them through our new IT
@@ -33,7 +34,7 @@ items:
       name: Continental Cargo Carriers
       link: https://ccctransport.com/
   - period: 2017 - 2019
-    function: Observatory Tour Guide
+    function: Observatory tour guide
     extra: student job
     description: "My responsibility was educating groups of visitors on guided
     tours through the observatory. Tasks include operating the planetarium and
