@@ -25,26 +25,32 @@
             </a>
             {{end}}
         </ul>
-        <em style="color: gray;">{{.extra}}</em>
+        <em style="color: gray;">
+            {{.projectLinkPre}}
+            <a style="color: gray !important;" href="{{.projectLink}}">{{.projectLink}}</a>
+            {{.projectLinkPost}}
+        </em>
     </div>
     {{end}}
 
-    {{with .techs}}
-    <h1>{{.title}}</h1>
-    <div id="other-technical-skills" class="devicons">
-        {{range .techs}}
-        {{if .class}}
-        <div><i class="{{.class}}"></i><span>{{.name}}</span></div>
-        {{end}}
+
+    <div class="tech-sections">
+        {{range .techSections}}
+        <div class="tech-section">
+            <h1>{{.title}}</h1>
+            <div class="devicons">
+                {{range .techs}}
+                <div>
+                    {{if .class}}
+                    <i class="{{.class}}"></i>
+                    {{end}}
+                    <span>{{.name}}</span>
+                </div>
+                {{end}}
+            </div>
+        </div>
         {{end}}
     </div>
     <br />
-    {{end}}
-
-    {{with .future}}
-    <h1>{{.title}}</h1>
-    <div>{{.text}}</div>
-    {{end}}
-
 </section>
 {{end}}

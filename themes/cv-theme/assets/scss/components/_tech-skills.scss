@@ -1,63 +1,73 @@
 #technical-skills {
-	#featured-technical-skills {
-		margin-bottom: 2rem;
-	}
+  #featured-technical-skills {
+    margin-bottom: 2rem;
+  }
 
-	ul {
-		list-style: none;
-		li {
-			margin-bottom: 0.7rem;
-		}
-		li:before {
-			font-family: 'Font Awesome 5 Free';
-			content: '\f005';
-			margin-right: 0.8rem;
-			display: inline-block;
-			font-size: 0.8rem;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			-webkit-font-smoothing: antialiased;
-		}
-	}
-	h1 {
-		font-size: 1rem;
-		font-weight: 400;
-	}
+  ul {
+    list-style: none;
+    li {
+      margin-bottom: 0.7rem;
+    }
+    li:before {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f005';
+      margin-right: 0.8rem;
+      display: inline-block;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .tech-sections {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .tech-section {
+      flex-basis: 33%;
+      text-align: center;
+      .devicons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.2rem;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        flex-basis: 25%;
+        & > div {
+          margin: 0.5rem 0;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          flex-basis: inherit;
+          & > * {
+            color: $text-color;
+          }
+          i {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+          }
+          svg {
+            padding-bottom: 1rem;
+            width: 2rem;
+            height: 2rem;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
 
-	.devicons {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: baseline;
-		flex-direction: row;
-		margin-bottom: 1rem;
-
-		& > div {
-			margin: 0.7rem 0;
-			flex-basis: 12%;
-			display: flex;
-			flex-direction: column;
-			text-align: center;
-			& > *{
-				color: $text-color;
-			}
-			i {
-				margin-bottom: 1rem;
-				font-size: 2rem;
-			}
-			svg {
-				padding-bottom: 1rem;
-				width: 2rem;
-				height: 2rem;
-				margin: 0 auto;
-			}
-		}
-
-		&#featured-technical-skills {
-			flex-direction: column;
-			& > div {
-				flex-direction: row;
-			}
-		}
-	}
+    &#featured-technical-skills {
+      flex-direction: column;
+      & > div {
+        flex-direction: row;
+      }
+    }
+  }
 }

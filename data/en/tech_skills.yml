@@ -15,39 +15,49 @@ projects:
       techs: .NET MVC web app + Java desktop back-office with JavaFX GUI
       link: https://deruwe.me/projects/lorem/
   extra: Click the star icons or check out my website for more information, demos and screenshots.
-techs:
-  title: Tools, techs and languages
-  techs: 
-    - name: C#
-      class: devicon-csharp-plain
-    - name: .NET
-      class: iconify icon:cib:dot-net icon-inline:false
-    - name: Java
-      class: devicon-java-plain
-    - name: Python
-      class: devicon-python-plain
-    - name: Javascript
-      class: devicon-javascript-plain
-    - name: Typescript
-      class: devicon-typescript-plain
-    - name: Angular
-      class: devicon-angularjs-plain
-    - name: HTML
-      class: devicon-html5-plain
-    - name: CSS
-      class: devicon-css3-plain
-    - name: SCSS
-      class: devicon-sass-original
-    - name: Bootstrap
-      class: devicon-bootstrap-plain
-    - name: Hugo
-      class: iconify icon:simple-icons:hugo icon-inline:false
-    - name: SQL
-      class: fa fa-database
-    - name: GraphQL
-      class: iconify icon:cib:graphql icon-inline:false
-    - name: Git
-      class: devicon-git-plain
-future:
-  title: Future experimentation
-  text: Blazor, Xamarin, WebWindow, SignalR, MAUI, Go, Docker, Kubernetes, serverless architecture, headless CMS ...
+  projectLinkPre: Go to
+  projectLink: 'https://deruwe.me/projects'
+  projectLinkPost: for more details, screenshots and demos.
+techSections:
+  - title: Languages and backend technologies
+    techs:
+      - name: C#
+        class: devicon-csharp-plain
+      - name: .NET
+        class: iconify icon:simple-icons:dot-net icon-inline:false
+      - name: Python
+        class: devicon-python-plain
+      - name: Typescript
+        class: devicon-typescript-plain
+      - name: Javascript
+        class: devicon-javascript-plain
+      - name: Java
+        class: devicon-java-plain
+  - title: Frontend technologies
+    techs:
+      - name: React
+        class: devicon-react-plain
+      - name: Blazor
+        class: iconify icon:simple-icons:blazor icon-inline:false
+      - name: Angular
+        class: devicon-angularjs-plain
+      - name: HTML
+        class: devicon-html5-plain
+      - name: CSS
+        class: devicon-css3-plain
+      - name: SCSS
+        class: devicon-sass-original
+  - title: Others
+    techs:
+      - name: REST API
+        class: iconify icon:dashicons:rest-api icon-inline:false
+      - name: GraphQL
+        class: iconify icon:simple-icons:graphql icon-inline:false
+      - name: SQL
+        class: fa fa-database
+      - name: Git
+        class: devicon-git-plain
+      - name: NPM
+        class: iconify icon:simple-icons:npm icon-inline:false
+      - name: NuGet
+        class: iconify icon:simple-icons:nuget icon-inline:false
